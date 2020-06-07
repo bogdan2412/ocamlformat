@@ -11,7 +11,7 @@
 
 let selected_version = Migrate_parsetree.Versions.ocaml_411
 
-module Selected_version = Ast_411
+module Selected_version = Migrate_parsetree.Ast_411
 module Ast_mapper = Selected_version.Ast_mapper
 module Ast_helper = Selected_version.Ast_helper
 
